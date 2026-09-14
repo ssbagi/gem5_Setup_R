@@ -1,0 +1,53 @@
+=== CONFIGURATION ===
+requests: 32
+range: 0x0-0xffff
+seed: 12345
+page bits: 12
+TLB entries: 4
+hit latency: 4 cycles
+miss latency: 30 cycles
+
+=== REQUESTS ===
+request=0 VA=0x5b8d PA=0x1005b8d miss latency=30 cycles
+request=1 VA=0x6683 PA=0x1006683 miss latency=30 cycles
+request=2 VA=0xb07b PA=0x100b07b miss latency=30 cycles
+request=3 VA=0x8f4a PA=0x1008f4a miss latency=30 cycles
+request=4 VA=0x930f PA=0x100930f miss latency=30 cycles
+request=5 VA=0x352b PA=0x100352b miss latency=30 cycles
+request=6 VA=0x756 PA=0x1000756 miss latency=30 cycles
+request=7 VA=0xb05d PA=0x100b05d miss latency=30 cycles
+request=8 VA=0x7826 PA=0x1007826 miss latency=30 cycles
+request=9 VA=0x3507 PA=0x1003507 miss latency=30 cycles
+request=10 VA=0x101 PA=0x1000101 hit latency=4 cycles
+request=11 VA=0x355 PA=0x1000355 hit latency=4 cycles
+request=12 VA=0x6ba0 PA=0x1006ba0 hit latency=4 cycles
+request=13 VA=0x9dbe PA=0x1009dbe hit latency=4 cycles
+request=14 VA=0xe517 PA=0x100e517 miss latency=30 cycles
+request=15 VA=0x691f PA=0x100691f miss latency=30 cycles
+request=16 VA=0x42c1 PA=0x10042c1 miss latency=30 cycles
+request=17 VA=0x6d7 PA=0x10006d7 miss latency=30 cycles
+request=18 VA=0x1ba2 PA=0x1001ba2 miss latency=30 cycles
+request=19 VA=0x5ddf PA=0x1005ddf miss latency=30 cycles
+request=20 VA=0xfe PA=0x10000fe hit latency=4 cycles
+request=21 VA=0xf0a9 PA=0x100f0a9 miss latency=30 cycles
+request=22 VA=0xb0f7 PA=0x100b0f7 miss latency=30 cycles
+request=23 VA=0xeb2d PA=0x100eb2d miss latency=30 cycles
+request=24 VA=0x6b73 PA=0x1006b73 miss latency=30 cycles
+request=25 VA=0xcdd9 PA=0x100cdd9 miss latency=30 cycles
+request=26 VA=0x993f PA=0x100993f miss latency=30 cycles
+request=27 VA=0xe1 PA=0x10000e1 miss latency=30 cycles
+request=28 VA=0x7d02 PA=0x1007d02 miss latency=30 cycles
+request=29 VA=0xe1d8 PA=0x100e1d8 miss latency=30 cycles
+request=30 VA=0xef2b PA=0x100ef2b hit latency=4 cycles
+request=31 VA=0xfc55 PA=0x100fc55 miss latency=30 cycles
+
+=== SUMMARY ===
+Traffic summary
+  requests: 32
+  range: 0x0-0xffff
+  seed: 12345
+  hits: 6
+  misses: 26
+  hit rate: 18.75%
+  total latency: 804 cycles
+  average latency: 25.12 cycles

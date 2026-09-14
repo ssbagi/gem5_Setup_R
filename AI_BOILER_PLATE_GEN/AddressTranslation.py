@@ -12,5 +12,5 @@ class AddressTranslation(SimObject):
     page_bits = Param.Unsigned(12, "Log2 of the page size")
     physical_offset = Param.Addr(0x1000, "Page-number offset for the map")
     tlb_entries = Param.Unsigned(16, "Number of direct-mapped TLB entries")
-    hit_latency = Param.Cycles(1, "Latency for a TLB hit")
-    miss_latency = Param.Cycles(10, "Latency for a TLB miss")
+    hit_latency = Param.Cycles(4, "Latency for a TLB hit")
+    miss_latency = Param.Cycles(30, "Latency for a TLB miss")

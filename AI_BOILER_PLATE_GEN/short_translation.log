@@ -1,0 +1,14 @@
+=== CONFIGURATION ===
+virtual address: 0x2345
+page size: 4096 bytes
+physical offset: 0x1000 pages
+
+=== TRANSLATION ===
+VA=0x2345 PA=0x1002345 hit=true
+
+=== SUMMARY ===
+  virtual address: 0x2345
+  physical address: 0x1002345
+  page size: 4096 bytes
+  physical offset: 0x1000 pages
+  hit: true
